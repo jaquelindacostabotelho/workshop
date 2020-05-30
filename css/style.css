@@ -1,0 +1,142 @@
+
+/* GERAIS  */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(243, 235, 149);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .botao {
+    background-color: rgb(212, 178, 66);
+    color: rgba(12, 11, 9, 0.959);
+    border-radius: 20px;
+    text-transform: uppercase;
+    /* padding-top:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom:10px; */
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  /* FIM GERAIS */
+  
+  /* BANNER */
+  .banner {
+    background: url(../img/jaque3.png) center no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner__conteudo {
+    color: white;
+    text-align: center;
+     }
+  
+  .banner__titulo {
+    font-size: 42px;
+      }
+  
+  .banner__link:hover {
+    background-color: rgb(12, 157, 201);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+  }
+  
+  /* FIM BANNER */
+  
+  
+  /* COMECO SOBRE / HABILIDADES */
+  
+  .section {
+    margin: 5% 10%;
+    line-height: 30px;
+    color: black;
+  }
+  
+  .section__titulo {
+    color: black;
+    font-size:36px;
+  }
+  
+  .sobre {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .sobre__texto {
+    width: 50%;
+    margin-right: 5px;
+  }
+  
+  .sobre__texto-principal {
+    font-size: 18px;
+  }
+  
+  .sobre__cv {
+    border: 1px solid rgb(212, 178, 66);
+  }
+  
+  .sobre__cv:hover {
+    opacity: 0.5;
+    transition: .5s;
+  }
+  
+  /* FIM SOBRE / HABILIDADES */
+  
+  /* FOOTER */
+  
+  .footer {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .redes-sociais {
+    display: flex;
+  }
+   
+  .redes-sociais__link {
+    margin: 20px;
+    background-color: rgb(12, 157, 201);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    width: 150px;
+  }
+  
+  .redes-sociais__link:hover {
+    transform: scale(1.1);
+    transition: .5s;
+  }
+  
+  .redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+  }
+
+  .copyright__volte {
+    display: center;
+    background-color: rgb(212, 178, 66);
+    text-align: center;
+    color: black;
+    
+  }
+  
+  
+   
