@@ -114,6 +114,7 @@
   
   .redes-sociais {
     display: flex;
+    flex-wrap: wrap;
   }
    
   .redes-sociais__link {
@@ -142,6 +143,12 @@
     text-align: center;
     color: black;
     
+  }
+
+  @media screen and (max-width:1069px){
+    .para-relaxar{
+      margin-left: 0;
+    }
   }
   
   
