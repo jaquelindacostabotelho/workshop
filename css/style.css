@@ -75,11 +75,13 @@
   .sobre {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap; /*os elementos filhos se distribuem conforme o tamanho do screen*/
   }
   
   .sobre__texto {
-    width: 50%;
+    width: 100%;
     margin-right: 5px;
+
   }
   
   .sobre__texto-principal {
@@ -95,6 +97,10 @@
     transition: .5s;
   }
   
+  .para-relaxar{
+    margin-left: 100px;
+  }
+
   /* FIM SOBRE / HABILIDADES */
   
   /* FOOTER */
@@ -137,6 +143,7 @@
     color: black;
     
   }
+  
   
   
    
